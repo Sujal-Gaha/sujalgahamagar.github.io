@@ -1,0 +1,271 @@
+body{
+    background-color: powderblue;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/disco-dba865f1.png);
+}
+a:link{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    /* padding: 4px 10px; */
+}
+a:visited{
+    color: greenyellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active{
+    color: white;
+    background-color: plum;
+    text-decoration: underline;
+    padding: auto;
+}
+h1{
+    /* display: flex; */
+    /* background-color: #d24dff; */
+    color: whitesmoke;
+    font-size: 300%;
+    /* font-family: Verdana; */
+    text-align: center;
+    /* border: 2px solid tomato; */
+    border-radius: 15px;
+    padding: 5px;
+    position: sticky;
+}
+ul.nav{
+    padding-left: 20px;
+    background-color: #d24dff;
+    text-align: center;
+    border-radius: 15px;
+    position: sticky; top: 0;
+}
+ul.nav>li{
+    display: inline-block;
+    padding: 20px 30px;
+}
+ul.nav>li:hover{
+    background-color: #bf00ff;
+}
+ul.nav>li>a{
+    color: white;
+    text-decoration: none;
+}
+.pi{
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 85%;
+    margin: 10rem auto 0 auto;
+    border-radius: 15px;
+}
+.pi img{
+    height: 250px;
+    width: 450px;
+    border-radius: 15px;
+}
+.pi h2{
+    margin: 0;
+    color: greenyellow;
+}
+.pi p{
+    color: #c0bdbd;
+    margin-right: 15px;
+}
+.phi{
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 85%;
+    margin: 10rem auto 0 auto;
+    border-radius: 15px;
+}
+.phi img{
+    height: 250px;
+    width: 450px;
+    border-radius: 15px;
+}
+.phi h2{
+    margin: 0;
+    color: greenyellow;
+}
+.phi p{
+    color: #c0bdbd;
+    margin-right: 15px;
+}
+.ita{
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 85%;
+    margin: 10rem auto 0 auto;
+    border-radius: 15px
+}
+.ita img{
+    height: 250px;
+    width: 450px;
+    border-radius: 15px;
+}
+.ita h2{
+    margin: 0;
+    color: greenyellow;
+}
+.ita p{
+    color: #c0bdbd;
+    margin: 15px;
+}
+.iota{
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 85%;
+    margin: 10rem auto 0 auto;
+    border-radius: 15px
+}
+.iota img{
+    height: 250px;
+    width: 450px;
+    border-radius: 15px;
+}
+.iota h2{
+    margin: 0;
+    color: greenyellow;
+}
+.iota p{
+    color: #c0bdbd;
+    margin: 15px;
+}
+.neu{
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 85%;
+    margin: 10rem auto 0 auto;
+    border-radius: 15px;
+}
+.neu img{
+    height: 250px;
+    width: 450px;
+    border-radius: 15px;
+}
+.neu h2{
+    margin: 0;
+    color: greenyellow;
+}
+.neu p{
+    color: #c0bdbd;
+    margin: 15px;
+}
+.meu{
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 85%;
+    margin: 10rem auto 0 auto;
+    border-radius: 15px;
+}
+.meu img{
+    height: 250px;
+    width: 450px;
+    border-radius: 15px;
+}
+.meu h2{
+    margin: 0;
+    color: greenyellow;
+}
+.meu p{
+    color: #c0bdbd;
+    margin: 15px;
+}
+.lambda{
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 85%;
+    margin: 10rem auto 0 auto;
+    border-radius: 15px;
+}
+.lambda img{
+    height: 250px;
+    width: 450px;
+    border-radius: 15px;
+}
+.lambda h2{
+    margin: 0;
+    color: greenyellow;
+}
+.lambda p{
+    color: #c0bdbd;
+    margin: 15px;
+}
+.one{
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 85%;
+    margin: 10rem auto 0 auto;
+    border-radius: 15px;
+}
+.one img{
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+}
+.one h2{
+    margin: 0;
+    color: greenyellow;
+}
+.one p{
+    color: #c0bdbd;
+    margin: 15px;
+}
+.ul.van>h2{
+    color: black;
+}
+ul.van{
+    padding-left: 20px;
+    background-color: #d24dff;
+    text-align: center;
+    border-radius: 15px;
+}
+ul.van>li{
+    display: inline-block;
+    padding: 20px 30px;
+}
+ul.van>li:hover{
+    background-color: #bf00ff;
+}
+ul.van>li>a{
+    color: white;
+    text-decoration: none;
+}
+.table{
+    text-align: center;
+    /* align-items: center; */
+    justify-content: space-between;
+    position: absolute;
+    left: 40%;
+}
+.button{
+    text-decoration: none;
+    color: aqua;
+    font-size: 2rem;
+    border: 1px solid aqua;
+    border: 20% 20%;
+}
+.button:hover{
+    color: powderblue;
+}
