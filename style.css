@@ -1,0 +1,403 @@
+/* Add styles for the body */
+body{
+    background-color: powderblue;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/disco-dba865f1.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center center;
+    /* background-attachment: fixed; */
+}
+/* Add styles for the link */
+a:link{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    /* padding: 4px 10px; */
+}
+
+a:visited{
+    color: greenyellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active{
+    color: white;
+    background-color: plum;
+    text-decoration: underline;
+    padding: auto;
+}
+/* Add styles for the heading h1 */
+h1{
+    /* display: flex; */
+    /* background-color: #d24dff; */
+    color: whitesmoke;
+    font-size: 300%;
+    /* font-family: Verdana; */
+    text-align: center;
+    /* border: 2px solid tomato; */
+    border-radius: 15px;
+    padding: 5px;
+    /* position: sticky; */
+}
+/* Add styles for the navigation bar */
+ul.nav{
+    display: flex;
+    padding-left: 30px;
+    background-color: slategray;
+    /* text-align: center; */
+    border-radius: 15px;
+    position: sticky; top: 0;
+    justify-content: space-evenly;
+}
+
+ul.nav>h2{
+    font-size: 170%;
+    font-weight: bold;
+    color: white;
+}
+
+ul.nav>h2.ss{
+    color: greenyellow;
+}
+
+ul.nav>hr{
+        background:none;
+        clear:both;
+        float:none;
+        height:1px;
+        border: none;
+}
+
+ul.nav>li{
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 140%;
+}
+
+ul.nav>li:hover{
+    background-color: #bf00ff;
+}
+
+ul.nav>li>a{
+    color: white;
+    text-decoration: none;
+}
+
+ul.nav>li>a:link{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+ul.nav>li>a:visited{
+    color: greenyellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+ul.nav>li>a:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+ul.nav>li>a:active{
+    color: white;
+    background-color: plum;
+    text-decoration: underline;
+    padding: auto;
+}
+
+.one{
+    background-color: #252121;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    width: 85%;
+    margin: 10rem auto 0 auto;
+    border-radius: 15px;
+}
+
+.one img{
+    height: 600px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.one h1{
+    margin: 0;
+    color: white;
+}
+
+.one h2{
+    margin: 0;
+    color: orange;
+}
+/* Add styles for the about me */
+.pi{
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 85%;
+    margin: 10rem auto 0 auto;
+    border-radius: 15px;
+}
+
+.pi hr{
+    margin-left: 200px;
+    margin-right: 218px;
+}
+
+.pi img{
+    height: 500px;
+    width: 600px;
+    border-radius: 15px;
+    margin-right: 200px;
+}
+
+.pi h2{
+    margin-left: 400px;
+    margin-right: 300px;
+    color: greenyellow;
+}
+
+.pi h3{
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+/* Add styles for the hobby */
+.phi{
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 85%;
+    margin: 10rem auto 0 auto;
+    border-radius: 15px;
+}
+
+.phi hr{
+    margin-left: 200px;
+    margin-right: 215px;
+}
+
+.phi img{
+    height: 500px;
+    width: 600px;
+    border-radius: 15px;
+    margin-right: 100px;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+.phi h2{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: greenyellow;
+}
+
+.phi h3{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+}
+/* Add styles for the table */
+.ita{
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 85%;
+    margin: 10rem auto 0 auto;
+    border-radius: 15px
+}
+
+.ita table{
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    position: static;
+    font-size: 25px;
+    margin-right: 400px;
+}
+/* Add styles for the contact me */
+.ul.van>h2{
+    color: black;
+}
+
+ul.van{
+    padding-left: 20px;
+    background-color: #d24dff;
+    text-align: center;
+    border-radius: 15px;
+}
+
+ul.van>li{
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+ul.van>li:hover{
+    background-color: #bf00ff;
+}
+
+ul.van>li>a{
+    color: white;
+    text-decoration: none;
+}
+
+.button{
+    text-decoration: none;
+    color: aqua;
+    font-size: 2rem;
+    border: 1px solid aqua;
+    border: 20% 20%;
+}
+
+.button:hover{
+    color: powderblue;
+}
+
+ul.van>table{
+    position: absolute;
+    left: 40%;
+    text-align: center;
+    align-items: center;
+}
+
+.facebook{
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.instagram{
+    border-radius: 5px;
+    height: 50px;
+    width: 90px;
+}
+
+.twitter{
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.reddit{
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.discord{
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.material-symbols-outlined {
+    align-items: center;
+    position: absolute;
+    left: 98%;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+/* Add styles for the faq */
+.faq-section {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .faq {
+    width: 30%;
+    text-align: left;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 10px;
+  }
+  
+  .question {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .answer {
+    font-style: italic;
+    margin-top: 10px;
+  }
+
+/* Add styles for the form */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: none;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .form-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+
+  .form-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
